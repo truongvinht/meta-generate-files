@@ -1,0 +1,39 @@
+{
+  "name": "meta-generate-files",
+  "version": "0.0.1",
+  "description": "A generator to create files based on meta configuration",
+  "keywords": [
+    "generate",
+    "templates",
+    "generate-code",
+    "custom-files"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish":"packito"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongvinht/meta-generate-files.git"
+  },
+  "author": {
+    "name": "Truong Vinh Tran",
+    "email": "truongvinht@gmail.com"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/truongvinht/meta-generate-files/issues"
+  },
+  "homepage": "https://github.com/truongvinht/meta-generate-files#readme",
+  "dependencies": {
+    "replace-string": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "packito": "^0.5.0"
+  }
+}

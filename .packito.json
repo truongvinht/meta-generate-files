@@ -1,0 +1,18 @@
+{
+    "remove": {
+      "devDependencies": "*",
+      "scripts": "*",
+      "type": true,
+      "esm": true,
+      "husky": true,
+      "commitlint": true
+    },
+    "replace": {
+      "main": "./src/index.js"
+    },
+    "publisher": {
+      "name": "Truong Vinh Tran"
+    },
+    "output": "./dist",
+    "copy": ["bin", "README.md", "LICENSE"]
+  }
